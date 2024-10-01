@@ -16,17 +16,17 @@
 
 Future<String> line() async {
   String greenting = "pernahkah kau merasa...";
-  return await Future.delayed(Duration(seconds: 1), () => (greenting));
+  return await Future.delayed(Duration(seconds: 5), () => (greenting));
 }
 
 Future<String> line2() async {
   String greenting = "pernahkah kau merasa...";
-  return await Future.delayed(Duration(seconds: 1), () => (greenting));
+  return await Future.delayed(Duration(seconds: 3), () => (greenting));
 }
 
 Future<String> line3() async {
   String greenting = "pernahkah kau merasa...";
-  return await Future.delayed(Duration(seconds: 1), () => (greenting));
+  return await Future.delayed(Duration(seconds: 2), () => (greenting));
 }
 Future<String> line4() async {
   String greenting = "hati hampa, pernahkah kau merasa,hati mu kosong";
